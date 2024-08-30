@@ -41,6 +41,7 @@ subprojects {
     }
 
     repositories {
+        mavenLocal()
         mavenCentral()
         maven(paperMavenPublicUrl)
         maven("https://jitpack.io")
@@ -48,6 +49,7 @@ subprojects {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven(paperMavenPublicUrl) {
         content {
