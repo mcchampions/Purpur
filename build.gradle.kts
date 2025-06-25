@@ -40,6 +40,11 @@ subprojects {
     }
 
     repositories {
+        mavenLocal()
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+
+        maven("https://mirrors.cloud.tencent.com/nexus/repository/maven-public/")
         mavenCentral()
         maven(paperMavenPublicUrl)
         maven("https://jitpack.io")
@@ -47,6 +52,11 @@ subprojects {
 }
 
 repositories {
+    mavenLocal()
+    maven("https://maven.aliyun.com/repository/public")
+    maven("https://maven.aliyun.com/repository/gradle-plugin")
+
+    maven("https://mirrors.cloud.tencent.com/nexus/repository/maven-public/")
     mavenCentral()
     maven(paperMavenPublicUrl) {
         content {

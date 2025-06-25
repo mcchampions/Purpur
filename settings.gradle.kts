@@ -2,6 +2,11 @@ import java.util.Locale
 
 pluginManagement {
     repositories {
+        mavenLocal()
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+
+        maven("https://mirrors.cloud.tencent.com/nexus/repository/maven-public/")
         gradlePluginPortal()
         maven("https://repo.papermc.io/repository/maven-public/")
     }
